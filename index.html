@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Form</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+ <link rel="stylesheet" href="Studentform.css">
+</head>
+<body>
+	<br><br>
+	<form>
+		<table width="70%" border="0" align="center">
+			<caption><strong>Student Registration Form</strong></caption>
+			<tr>
+				<th class="left">Roll Number</th>
+				<th class="mid">:</th>
+				<td><input type="number" name="Roll Number" class="num" placeholder="Enter Roll Number"></td>
+			</tr>
+
+			<tr>
+				<th class="left">Enrollment</th>
+				<th class="mid">:</th>
+				<td><input type="number" name="Enrollment" class="num" placeholder="Enter Number" required></td>
+			</tr>
+
+			<tr>
+				<th class="left">Name</th>
+				<th class="mid">:</th>
+				<td><input type="name" name="Name" class="num" placeholder="Enter Name" required></td>
+			</tr>
+			
+			<tr>
+				<th class="left">Branch</th>
+				<th class="mid">:</th>
+				<td><input type="name" name="Branch" class="num" placeholder="E.g (C.E.)"></td>
+			</tr>
+			
+			<tr>
+				<th class="left">Semester</th>
+				<th class="mid">:</th>
+				<td>
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<th class="left">Mobile Number</th>
+				<th class="mid">:</th>
+				<td><input type="number" name="Mobile_NUmber" class="nums" placeholder="+91"></td>
+			</tr>
+			
+			<tr>
+				<th class="left">Email</th>
+				<th class="mid">:</th>
+				<td><input type="Email" name="Email" class="num" placeholder=" Enter Email" required></td>
+			</tr>
+			
+			<tr>
+				<th class="left">Date of Birth</th>
+				<th class="mid">:</th>
+				<td><input type="Date" name="DOB" class="nums"></td>
+			</tr>
+				<tr>
+				<th class="left">Gender</th>
+				<th class="mid">:</th>
+				<td class="radio"><input type="radio" name="Gender"/> <span> Female</span><br/>
+				<input type="radio" name="Gender" checked/> <span> Male</span><br/></td>
+			</tr>
+			<tr>
+				<th class="left">Blood Group</th>
+				<th class="mid">:</th>
+				<td>
+					<select>
+						<option>A+</option>
+						<option>B+</option>
+						<option>O+</option>
+						<option>AB+</option>
+						<option>A-</option>
+						<option>B-</option>
+						<option>O-</option>
+						<option>AB-</option>
+					</select>
+				</td>
+			<tr>
+				<th width="30%" class="left">City</th>
+				<th class="mid">:</th>
+				<td>
+					<select class="nums">
+
+						<option>Ahmedabad</option>
+						<option>Amreli</option>
+						<option>Anand</option>
+						<option>Aravalli</option>
+						<option>Banaskantha</option>
+						<option>Bharuch</option>
+						<option>Bhavnagar</option>
+						<option>Botad</option>
+						<option>Chhota Udaipur</option>
+						<option>Dahod</option>
+						<option>Dang</option>
+						<option>Devbhoomi Dwarka</option>
+						<option>Gandhinagar</option>
+						<option>Gir Somnath</option>
+						<option>Jamnagar</option>
+						<option>Junagadh</option>
+						<option>Kheda</option>
+						<option>Kutch</option>
+						<option>Mahisagar</option>
+						<option>Mehsana</option>
+						<option>Morbi</option>
+						<option>Narmada</option>
+						<option>Navsari</option>
+						<option>Panchmahal</option>
+						<option>Patan</option>
+						<option>Porbandar</option>
+						<option selected>Rajkot</option>
+						<option>Sabarkantha</option>
+						<option>Surat</option>
+						<option>Surendranagar</option>
+						<option>Tapi</option>
+						<option>Vadodara</option>
+						<option>Valsad</option>
+					</select>
+			</tr>
+
+			<tr>
+				<th width="30%" class="left">Collage</th>
+				<th class="mid">:</th>
+				<td><input type="name" name="Collage_Name" placeholder="Collage Name" class="nums"></td>
+			</tr>
+			<tr>
+				<th width="30%" class="left">Address</th>
+				<th class="mid">:</th>
+				<td><textarea rows="3" cols="25" placeholder="Address"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<button class="s1" type="submit">Submit</button>
+					<button class="s2" type="Reset">Reset</button>
+				</td>
+			</tr>
+			
+		</table>
+	</form>
+</body>
+</html>
