@@ -1,0 +1,17 @@
+1	Explain Dining philosopher Problem solution.	(7)
+2	What is Semaphore? Give the implementation of Readers-Writers Problem using Semaphore.	(7)
+3	Explain producer consumer problem and its solution using monitor.	(7)
+4	Write Peterson’s Solution for the critical section problem.	(4)
+5	Define: Mutual Exclusion, Critical Section, Race Condition.	(3)
+6 	What is Deadlock? List the conditions that lead to deadlock.	(4)
+7 	Explain banker’s algorithms for multiple resources with example.	(4)
+
+
+Unit 2
+1	Consider Five Processes P1 to P5 arrived at same time. They have estimated running time 10,2,6,8 and 4 seconds, respectively. Their Priorities are 3,2,5,4 and 1, respectively with 5 being highest Priority. Find the average turnaround time and average waiting time for Shortest Remaining Time Next, Round Robin (q=3) and Priority Scheduling algorithm.	(7)
+2	 Explain Thread Life Cycle with diagram.	(4)
+3	Draw Five State Process Model and Explain it.	(4)
+4 	Explain process control block PCB with Diagram.
+5	Difference between process and Thread.
+6	write benefits of thread.
+7. 	write varoius Multithreading Model
